@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+header {
+    width: 980px;
+    height: 100px;
+    background: #cb7802;
+}
+header img {
+    margin-left: 20px;
+}
+nav {
+    height: 35px;
+    background: #272f54;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    line-height: 35px;
+    float: left;
+    padding: 0 15px;
+    color: white;
+    font-size: 14px;
+}
+nav .search {
+    line-height: 35px;
+    float: right;
+    margin-right: 15px;
+}
+nav .search button {
+    background: #272f54;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 20px;
+    cursor: pointer;
+}
+nav .search input {
+    padding: 4px 30px;
+}
+.slide {
+    margin-top: 3px;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: #272f54;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+article .news-list .news-item {
+    width: 281px;
+    padding: 5px;
+    padding-left: 25px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+#fix {
+    margin-right: 0;
+}
+footer {
+    background: #272f54;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-weight: 600;
+    margin-top: 20px;
+}
